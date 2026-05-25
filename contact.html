@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact｜LUMINA ARCHITECTS</title>
+  <meta name="description" content="LUMINA ARCHITECTSへのお問い合わせページです。新築、リノベーション、店舗・オフィス設計、空間ブランディングなどのご相談を受け付けています。">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact｜LUMINA ARCHITECTS">
+  <meta property="og:description" content="新築、リノベーション、店舗設計など、LUMINA ARCHITECTSへのご相談はこちらから。">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Marcellus&family=Noto+Serif+JP:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/destyle.min.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+
+<body>
+  <header class="siteHeader">
+    <a href="index.html" class="siteLogo">
+      LUMINA
+      <span>ARCHITECTS</span>
+    </a>
+
+    <button class="hamburger" type="button" aria-label="メニューを開く" aria-controls="siteNav" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  
+    <nav class="siteNav" id="siteNav" aria-label="グローバルナビ">
+      <a href="concept.html">Concept</a>
+      <a href="projects.html">Projects</a>
+      <a href="process.html">Process</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="siteNav__contact">Contact</a>
+    </nav>
+  
+    <a href="contact.html" class="headerContact">Contact</a>
+  </header>
+
+
+<main>
+  <section class="contactFv">
+    <div class="contactFv__inner containerWide">
+      <div class="contactFv__content">
+        <p class="FV__label">CONTACT</p>
+
+        <h1 class="contactFv__title">
+          空間づくりの対話を、<br>
+          ここから。
+        </h1>
+
+        <p class="contactFv__lead">
+          新築・リノベーション・店舗設計など、<br>
+          どのようなご相談でもお気軽にお問い合わせください。<br>
+          丁寧にお話を伺い、最適なかたちをご提案します。
+        </p>
+      </div>
+
+      <div class="contactFv__image">
+        <img src="assets/imgs/contact-fv.webp" alt="建築模型と図面が置かれた静かな机">
+      </div>
+    </div>
+  </section>
+
+  <section class="contactIntro">
+    <div class="containerWide contactIntro__inner">
+      <div class="contactIntro__text">
+        <span class="contactNum">01</span>
+        <h2>はじめての方へ</h2>
+        <p>
+          まだイメージが固まっていない段階でも大丈夫です。<br>
+          暮らしのこと、敷地のこと、資金のこと。<br>
+          どんな小さなことでも、まずはお聞かせください。
+        </p>
+      </div>
+
+      <div class="contactIntro__points">
+        <article>
+          <h3>対話を大切に</h3>
+          <p>丁寧にお話を伺い、想いを整理します。</p>
+        </article>
+
+        <article>
+          <h3>可能性を探る</h3>
+          <p>敷地や環境を読み解き、最適な方向性を探ります。</p>
+        </article>
+
+        <article>
+          <h3>かたちにする</h3>
+          <p>暮らしに寄り添う空間を、丁寧に設計します。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contactFormSec">
+    <div class="contactFormSec__inner">
+      <div class="contactFormArea">
+        <span class="contactNum">02</span>
+        <h2>Contact Form</h2>
+
+        <p class="formNote">このフォームは静的サイト用のデモです。入力内容は実際には送信されません。</p>
+
+        <form action="#" method="post" class="contactForm" data-demo-form>
+          <div class="formItem">
+            <label for="name">お名前 <span>/ Name</span></label>
+            <input type="text" id="name" name="name" placeholder="例）山田 太郎" required>
+          </div>
+
+          <div class="formItem">
+            <label for="email">メールアドレス <span>/ Mail</span></label>
+            <input type="email" id="email" name="email" placeholder="例）example@mail.com" required>
+          </div>
+
+          <div class="formItem">
+            <label for="type">ご相談内容 <span>/ Project Type</span></label>
+            <select id="type" name="type" required>
+              <option value="" disabled selected>選択してください</option>
+              <option value="house">住宅設計</option>
+              <option value="renovation">リノベーション</option>
+              <option value="shop">店舗・オフィス設計</option>
+              <option value="branding">空間ブランディング</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+
+          <div class="formItem">
+            <label for="message">メッセージ <span>/ Message</span></label>
+            <textarea id="message" name="message" placeholder="ご相談内容をご記入ください" required></textarea>
+          </div>
+
+          <label class="formPrivacy">
+            <input type="checkbox" name="privacy" required>
+            <span>プライバシーポリシーに同意する</span>
+          </label>
+
+          <button type="submit" class="formSubmit">
+            送信する
+            <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="formMessage" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+
+      <div class="contactFormImage">
+        <img src="assets/imgs/contact-form.webp" alt="光が差し込む静かな打ち合わせ空間">
+      </div>
+    </div>
+  </section>
+
+  <section class="contactProcess">
+    <div class="containerWide contactProcess__inner">
+      <div>
+        <span class="contactNum">03</span>
+        <h2>かたちになるまで</h2>
+        <p>ご相談から完成までの流れをご紹介しています。</p>
+      </div>
+
+      <a href="process.html" class="textBtn">
+        Processを見る
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <div class="contactProcess__image">
+        <img src="assets/imgs/contact-process.webp" alt="図面と鉛筆">
+      </div>
+    </div>
+  </section>
+
+  <section class="contactMessage">
+    <div class="containerNarrow">
+      <p>
+        一緒に、心地よい空間を<br>
+        考えていけることを楽しみにしています。
+      </p>
+
+      <a href="index.html" class="textBtn">
+        Topへ戻る
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+
+
+
+  <footer class="footer">
+    <p>LUMINA ARCHITECTS</p>
+    <small>© LUMINA ARCHITECTS</small>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
